@@ -107,7 +107,7 @@ a:hover {
 
 .notification.success {
     background-color: var(--success-green);
-    color: white;
+    color: #000000; /* ACCESSIBILITY FIX: Changed from white */
 }
 
 .notification.error {
@@ -492,16 +492,16 @@ input.success {
 
 .btn-edit {
     background-color: var(--accent-green);
-    color: white;
+    color: #000000; /* ACCESSIBILITY FIX: Changed from white */
 }
 
 .btn-edit:hover {
-    background-color: #558B2F;
+    background-color: #558B2F; /* Consider adjusting hover if base color changes significantly or use a calculated darker shade */
 }
 
 .btn-delete {
     background-color: #f0ad4e;
-    color: white;
+    color: var(--text-dark); /* ACCESSIBILITY FIX: Changed from white */
 }
 
 .btn-delete:hover {
